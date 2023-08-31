@@ -318,6 +318,8 @@ const handleContentSizeChange = () => {
             const imageUrl = chat.imageUrl;
             const filename = imageUrl.split("\\").pop();
             const src = baseUrl + filename;
+
+            //temporary
             const source = { uri: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"};
             //! SetUp End
 
